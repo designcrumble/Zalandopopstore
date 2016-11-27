@@ -80,17 +80,21 @@ h5{
   font-family: 'Roboto',sans-serif;
   background-color: #000;
   color: #fff;
+  padding:15px 30px !important;
   text-transform: uppercase;
   border: none;
   border-radius: 0;
   padding: 12px 40px;
-  transition:all 0.4s ease;
+  transition:all 0.7s ease;
   
 }
 .btn-primary:hover{
   color: #000;
+
+  border-radius: 35px;
+  border:1px solid #000;
   background-color: #fff;
-  transition:all 0.4s ease;
+  transition:all 0.7s ease;
 }
 
 /*=====  End of Custom-Style  ======*/
@@ -101,6 +105,7 @@ h5{
   color: #fff;
 }
 .sec-btn{
+  padding: 15px 30px;
   font-family: 'Roboto',sans-serif;
   font-size: 1.2em;
   text-transform: uppercase;
@@ -108,15 +113,15 @@ h5{
   border-radius: 2px;
   color: #fff;
   background:rgba(0,0,0,0);
-  transition:all ease 0.4s;
+  transition:all ease 0.7s;
 }
 .sec-btn:hover{
   font-family: 'Roboto',sans-serif;
   font-size: 1.2em;
   text-transform: uppercase;
   border: 1px solid #fff;
-  border-radius: 2px;
+  border-radius: 35px;
   color: #000;
   background:rgba(255,255,255,1);
-  transition:all ease 0.4s;
+  transition:all ease 0.7s;
 }
