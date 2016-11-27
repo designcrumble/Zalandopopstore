@@ -1,0 +1,122 @@
+/*====================================
+=            Override CSS            =
+====================================*/
+
+/*==================================
+=            Typography            =
+==================================*/
+
+h1{
+  font-family: 'Roboto',sans-serif;
+  font-size:3em;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+h2{
+  font-family: 'Roboto',sans-serif;
+  font-size:2.4em;
+  font-weight: 300;
+  line-height: 2em;
+}
+h3{
+  font-family: 'Roboto',sans-serif;
+  font-size:2em;
+  font-weight: 300;
+  line-height: 2em;
+}
+h4{
+  font-family: 'Roboto',sans-serif;
+  font-size:1.6em;
+  font-weight: 300;
+  line-height: 1em;
+}
+h5{
+  font-family: 'Roboto',sans-serif;
+  font-size:1.3em;
+  font-weight: 300;
+  line-height: 2em;
+}
+
+/*=====  End of Typography  ======*/
+
+
+  /*----------  Navbar   ----------*/
+  
+.navbar {
+  border-radius: 0;
+  border:none;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top:3em;
+  height: 5em;
+  background-color: #fff;
+  box-shadow: 0px 20px 50px 2px rgba(0, 0, 0, 0.04);
+}
+
+.navbar-nav>li>a{
+  padding-top: 25px;
+}
+/*=====  End of Override CSS  ======*/
+
+/*====================================
+=            Custom-Style            =
+====================================*/
+
+.hero-sec{
+  height:800px;
+  background-color: #fff;
+  width:100%;
+}
+.image-bg{
+  background: url('assets/bg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;;
+  height:100vh;
+}
+
+.btn-primary{
+  font-family: 'Roboto',sans-serif;
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 0;
+  padding: 12px 40px;
+  transition:all 0.4s ease;
+  
+}
+.btn-primary:hover{
+  color: #000;
+  background-color: #fff;
+  transition:all 0.4s ease;
+}
+
+/*=====  End of Custom-Style  ======*/
+
+
+.b2b{
+  background-color: #9010ff;
+  color: #fff;
+}
+.sec-btn{
+  font-family: 'Roboto',sans-serif;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  color: #fff;
+  background:rgba(0,0,0,0);
+  transition:all ease 0.4s;
+}
+.sec-btn:hover{
+  font-family: 'Roboto',sans-serif;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  color: #000;
+  background:rgba(255,255,255,1);
+  transition:all ease 0.4s;
+}
